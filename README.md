@@ -160,7 +160,7 @@ Abubakari Issah
 
 GitHub: @assaawin
 
-Twitter: @yourhandle
+Twitter: @assaawin
 
 🙏 Acknowledgments
 ALX Africa Software Engineering Program
