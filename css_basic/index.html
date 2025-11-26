@@ -10,6 +10,7 @@
   <body class="works_on_smartphone">
     <header>
       <ul>
+        <li class="logo">&#128187;</li>
         <li><a href="index.html">Home</a></li>
         <li><a href="tweets.html">Tweets</a></li>
       </ul>
@@ -19,71 +20,92 @@
         <h1>Welcome to My First Webpage</h1>
 
         <h2>About This Page</h2>
-        <p>
+        <p class="intro">
           This is my first webpage created as part of the ALX project. I'm
           learning HTML and web development fundamentals.
         </p>
 
-        <h3>Web Development Journey</h3>
-        <p>
-          Learning HTML is the first step in becoming a web developer. It's
-          exciting to see how web pages are structured.
-        </p>
+        <div class="card">
+          <h3>Web Development Journey</h3>
+          <p>
+            Learning HTML is the first step in becoming a web developer. It's
+            exciting to see how web pages are structured.
+          </p>
+        </div>
 
-        <p>
-          Each element in HTML serves a specific purpose, from headings to
-          paragraphs to images and links.
-        </p>
+        <div class="card">
+          <p>
+            Each element in HTML serves a specific purpose, from headings to
+            paragraphs to images and links.
+          </p>
+        </div>
 
-        <p>
-          Soon, I'll be adding CSS to make this page look even better and
-          JavaScript to add interactivity.
-        </p>
+        <div class="card highlight">
+          <p>
+            Soon, I'll be adding CSS to make this page look even better and
+            JavaScript to add interactivity.
+          </p>
+        </div>
 
         <h2>ALX Logo</h2>
         <a href="https://www.alxafrica.com" target="_blank">
-          <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" />
+          <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo" class="alx-logo" />
         </a>
-        <table>
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Age</th>
-              <th>Country</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>John</td>
-              <td>25</td>
-              <td>USA</td>
-            </tr>
-            <tr>
-              <td>Emily</td>
-              <td>28</td>
-              <td>Canada</td>
-            </tr>
-            <tr>
-              <td>Michael</td>
-              <td>32</td>
-              <td>Australia</td>
-            </tr>
-            <tr>
-              <td>Sophia</td>
-              <td>21</td>
-              <td>UK</td>
-            </tr>
-          </tbody>
-        </table>
+        
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>USA</td>
+              </tr>
+              <tr>
+                <td>Emily</td>
+                <td>28</td>
+                <td>Canada</td>
+              </tr>
+              <tr>
+                <td>Michael</td>
+                <td>32</td>
+                <td>Australia</td>
+              </tr>
+              <tr>
+                <td>Sophia</td>
+                <td>21</td>
+                <td>UK</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </article>
       <aside>
-        <p>placeholder to add comment thread later</p>
+        <div class="sidebar-card">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#logo">ALX Logo</a></li>
+            <li><a href="#table">Data Table</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-card">
+          <h3>Placeholder</h3>
+          <p>Comment thread coming soon!</p>
+        </div>
       </aside>
     </main>
     <footer>
       <p>
-        Made Abubakari Issah -
-        <a href="https://www.alxafrica.com" target="_blank">here</a>
+        Made by Abubakari Issah -
+        <a href="https://www.alxafrica.com" target="_blank">Visit ALX</a>
       </p>
     </footer>
   </body>
