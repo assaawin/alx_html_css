@@ -278,6 +278,72 @@ main section:nth-child(5) > div > div > div:nth-child(even) {
 
 /* Footer */
 
+footer {
+    background: #071629;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer section > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 30px;
+}
+
+footer img {
+    height: 40px;
+}
+
+footer div:last-child {
+    display: flex;
+    gap: 20px;
+}
+
+footer i {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer i:hover {
+    color: #C271FF;
+}
+
+footer p {
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    main section:first-child h1 {
+        font-size: 60px;
+    }
+    
+    main section:nth-child(2) {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    main section:nth-child(5) > div {
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    footer section > div {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 
 
 
