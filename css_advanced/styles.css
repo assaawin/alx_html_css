@@ -5,3 +5,143 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 
 /* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.6;
+  color: #071629;
+}
+
+/* Header styles */
+header {
+  background: #071629;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+}
+
+nav img {
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #C271FF;
+}
+
+
+/* Banner section */
+
+main section:first-child {
+    background: #071629;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('./images/object.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section:first-child h1 {
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main section:first-child span {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+main section:first-child button {
+    background: #C271FF;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+main section:first-child button:hover {
+    background: #9B51E0;
+}
+
+/* Pros section */
+
+main section:first-child > div:last-child {
+    margin-top: 100px;
+}
+
+main section:first-child > div:last-child h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+main section:first-child > div:last-child > div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+main section:first-child > div:last-child > div > div {
+    text-align: center;
+    max-width: 200px;
+}
+
+main section:first-child > div:last-child img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+main section:first-child > div:last-child h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+main section:first-child > div:last-child p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Quote section */
+
+
+
+ 
+/* Tutorials section */
