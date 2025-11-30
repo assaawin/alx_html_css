@@ -241,6 +241,42 @@ main section:nth-child(4) button:hover {
 
 /* FAQ section */
 
+main section:nth-child(5) {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main section:nth-child(5) h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+main section:nth-child(5) > div {
+    display: flex;
+    gap: 100px;
+}
+
+main section:nth-child(5) > div > div {
+    flex: 1;
+}
+
+main section:nth-child(5) h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main section:nth-child(5) > div > div > div:nth-child(even) {
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+}
+
+
+/* Footer */
 
 
 
