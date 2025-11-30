@@ -141,7 +141,40 @@ main section:first-child > div:last-child p {
 
 /* Quote section */
 
+main section:nth-child(2) {
+    background: #C271FF;
+    color: white;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
 
+main section:nth-child(2) img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main section:nth-child(2) blockquote {
+    font-size: 22px;
+    font-style: italic;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+main section:nth-child(2) h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+main section:nth-child(2) p {
+    font-size: 18px;
+    opacity: 0.8;
+}
 
  
 /* Tutorials section */
